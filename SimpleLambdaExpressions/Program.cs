@@ -7,7 +7,8 @@ namespace SimpleLambdaExpressions
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("***** Fun with Lambdas *****\n");
+            TraditionalDelegateSyntax();
         }
 
         static void TraditionalDelegateSyntax()
