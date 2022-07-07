@@ -22,8 +22,8 @@ namespace SimpleLambdaExpressions
             Predicate<int> callback = IsEvenNumber;
             List<int> evenNumbers = list.FindAll(callback);
             Console.WriteLine("Here are your even numbers:");
-            foreach(int evenNumber in evenNumbers)
-                Console.WriteLine("{0}\t",evenNumber);
+            foreach (int evenNumber in evenNumbers)
+                Console.WriteLine("{0}\t", evenNumber);
             Console.WriteLine();
         }
 
@@ -37,6 +37,18 @@ namespace SimpleLambdaExpressions
             // Теперь использовать анонимный метод.
             List<int> evenNumbers = list.FindAll(delegate (int i)
             { return (i % 2 == 0); });
+            Console.WriteLine("Here are your even numbers:");
+            foreach (int evenNumber in evenNumbers)
+                Console.WriteLine("{0}\t", evenNumber);
+            Console.WriteLine();
+        }
+
+        static void LambdaExpressionSyntax()
+        {
+            List<int> list = new List<int>();
+            list.AddRange(new int[] { 20, 1, 4, 8, 9, 44 });
+            // Теперь использовать лямбда-выражение C#.
+            List<int> evenNumbers = list.FindAll(i => (i % 2) == 0);
             Console.WriteLine("Here are your even numbers:");
             foreach (int evenNumber in evenNumbers)
                 Console.WriteLine("{0}\t", evenNumber);
