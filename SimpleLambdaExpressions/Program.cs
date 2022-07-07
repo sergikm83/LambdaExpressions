@@ -8,10 +8,8 @@ namespace SimpleLambdaExpressions
         static void Main(string[] args)
         {
             Console.WriteLine("***** Fun with Lambdas *****\n");
-            Console.WriteLine("This is TraditionalDelegateSyntax() example:\n");
-            TraditionalDelegateSyntax();
-            Console.WriteLine("\nThis is AnonymousMethodSyntax() example:\n");
-            AnonymousMethodSyntax();
+            Console.WriteLine("\nThis is LambdaExpressionSyntax() example:\n");
+            LambdaExpressionSyntax();
         }
 
         static void TraditionalDelegateSyntax()
