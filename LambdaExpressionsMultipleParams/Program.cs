@@ -10,7 +10,7 @@ namespace LambdaExpressionsMultipleParams
             SimpleMath m = new SimpleMath();
             m.SetMathHandler((msg, result) =>
             {
-                Console.WriteLine("Message: P0}, Result: {1}", msg, result);
+                Console.WriteLine("Message: {0}, Result: {1}", msg, result);
             });
             // Выполнение лямбда-выражения.
             m.Add(10, 25);
