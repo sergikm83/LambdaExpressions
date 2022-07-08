@@ -4,6 +4,7 @@ namespace LambdaExpressionsMultipleParams
 {
     class Program
     {
+        public delegate string VerySimpleDelegate();
         static void Main(string[] args)
         {
             // Зарегистрировать делегат как лямбда-выражеие.
@@ -14,6 +15,9 @@ namespace LambdaExpressionsMultipleParams
             });
             // Выполнение лямбда-выражения.
             m.Add(10, 25);
+            Console.WriteLine();
+            VerySimpleDelegate d = new VerySimpleDelegate(() => { return "Here could be your advertisement! :)"; });
+            Console.WriteLine(d());
         }
     }
     public class SimpleMath
