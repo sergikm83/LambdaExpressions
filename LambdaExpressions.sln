@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleLambdaExpressions", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LambdaExpressionsMultipleParams", "LambdaExpressionsMultipleParams\LambdaExpressionsMultipleParams.csproj", "{D6E3D897-F6D5-4F02-94D8-357259D39C9B}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarEvents", "..\Delegates\CarEvents\CarEvents.csproj", "{75153882-2B91-44B5-8454-F7B846E4A20C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{D6E3D897-F6D5-4F02-94D8-357259D39C9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6E3D897-F6D5-4F02-94D8-357259D39C9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6E3D897-F6D5-4F02-94D8-357259D39C9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75153882-2B91-44B5-8454-F7B846E4A20C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75153882-2B91-44B5-8454-F7B846E4A20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75153882-2B91-44B5-8454-F7B846E4A20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75153882-2B91-44B5-8454-F7B846E4A20C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
